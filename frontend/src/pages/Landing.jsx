@@ -193,7 +193,7 @@ export default function Landing() {
 
       {/* Footer */}
       <footer className={styles.footer}>
-        <span>Built by <strong>Seven 30 Games</strong></span>
+        <span>Made by <strong>syntaxjunkie</strong></span>
         <a href="https://github.com/dirtroaddeveloper/price-drop-tracker" target="_blank" rel="noreferrer">
           GitHub ↗
         </a>
