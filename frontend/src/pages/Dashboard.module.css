@@ -1,0 +1,114 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.sub {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.card:hover {
+  border-color: var(--orange);
+  transform: translateY(-2px);
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.dot {
+  color: var(--text-dim);
+  font-size: 16px;
+}
+
+.productName {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  min-height: 40px;
+}
+
+.priceRow {
+  margin-bottom: 18px;
+}
+
+.priceLabel {
+  font-size: 11px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--green);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.empty {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text-dim);
+}
+
+.emptyIcon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.empty h2 {
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.empty p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
