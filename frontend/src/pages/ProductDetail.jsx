@@ -51,7 +51,7 @@ export default function ProductDetail() {
       setStats(statsRes.data);
       await fetchHistory();
     } catch {
-      navigate('/');
+      navigate('/dashboard');
     } finally {
       setLoading(false);
     }

@@ -8,12 +8,12 @@ export default function Navbar() {
 
   function handleLogout() {
     logout();
-    navigate('/login');
+    navigate('/');
   }
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.brand} onClick={() => navigate('/')}>
+      <div className={styles.brand} onClick={() => navigate('/dashboard')}>
         <span className={styles.dot}>▶</span> Price Drop Tracker
       </div>
       <div className={styles.right}>
